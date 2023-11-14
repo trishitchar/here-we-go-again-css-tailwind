@@ -39,7 +39,7 @@ const Navbar = () => {
                     <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-150 duration-200' href="">{link}</li>
                 ))}
             </ul>
-            <div onClick={()=> setNav(!nav)} className=' cursor-pointer pr-4 z-10 text-gray-500 duration-200'>
+            <div onClick={()=> setNav(!nav)} className=' cursor-pointer pr-4 z-10 text-gray-500 duration-200 md:hidden'>
                 {nav ? <FaTimes size={20}/> : <FaBars size={20}/>}
                 
             </div>
