@@ -15,12 +15,13 @@ const Home = () => {
                 on web applications using technologies like React, Tailwind, Next.js, and GraphQL.
             </p>
             <div className="flex items-center">
-                <button className="text-white bg-green-500 py-2 px-6 rounded-full hover:bg-green-600">
+                <button className="group flex items-center mt-4 text-xl text-white w-fit bg-gradient-to-r  from-cyan-500 to-blue-500 py-3 px-6 rounded-md hover:bg-green-600 cursor-pointer">
                 Portfolio
-                </button>
-                <span className="ml-2 text-green-500">
-                <TiArrowRightOutline />
+                
+                <span className=" ml-4 text-white-500 group-hover:rotate-90 duration-200 ">
+                <TiArrowRightOutline size={25} />
                 </span>
+                </button>
             </div>
             </div>
             <div className="flex">
